@@ -1,4 +1,7 @@
-# -*- coding: utf-8 -*-
+# Jhima Mohamed
+# 12/01/2021
+#To do : relancer le jeu en cas de victoire ou défaites
+# https://github.com/Mohajhima/TPPythonSpace-Invaders.git
 
 import tkinter as tk  # On a travaillé sur python 3 mais ça ne devrait rien changer à part la majuscule sur Tkinter.
 import random as rd
