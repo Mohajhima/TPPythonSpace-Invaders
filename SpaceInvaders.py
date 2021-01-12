@@ -3,7 +3,7 @@
 #To do : relancer le jeu en cas de victoire ou défaites
 # https://github.com/Mohajhima/TPPythonSpace-Invaders.git
 
-import tkinter as tk  # On a travaillé sur python 3 mais ça ne devrait rien changer à part la majuscule sur Tkinter.
+import tkinter as tk  
 import random as rd
 
 class Ennemi: # gère le type des ennemis, leurs déplacements
@@ -84,7 +84,7 @@ class Horde:  # gère les ennemis en tant que groupe
 
             for Ennemi in self.listeEnnemis:
                 self.canvas.move(Ennemi.sprite, 0, 25)
-                Ennemi.direction = (Ennemi.direction == -1) - (Ennemi.direction == 1) # Pas utilisé dans horde mais fait par rigueur
+                Ennemi.direction = (Ennemi.direction == -1) - (Ennemi.direction == 1) 
             self.direction = (self.direction == -1) - (self.direction == 1)
         self.canvas.after(self.frequence,self.deplacements)
     
